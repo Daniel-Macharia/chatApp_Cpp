@@ -94,6 +94,9 @@ int main()
 	//connect to the server
 	
 	//specify the ip of the server
+	//Inet_Pton(AF_INET, _T("127.0.0.1"), &address.sin_addr.s_addr);
+	//inetaton("127.0.0.1", &address.sin_addr.s_addr);
+	//        "    1    .  0    .   0   .  127  "    //127.0.0.1 in binary    
 	string s = "00000001000000000000000001111111";
 	bitset<32> b(s);
 	
